@@ -1,0 +1,2 @@
+# dotfiles
+Terminal personal config
