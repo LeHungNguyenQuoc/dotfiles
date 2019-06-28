@@ -1,0 +1,145 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+$FZF_DEFAULT_OPTS	nvim/nvimrc.vim	/^let $FZF_DEFAULT_OPTS .= ' --no-height'$/;"	v
+<C-\>	nvim/nvimrc.vim	/^nmap <C-\\> :TagbarToggle<CR>$/;"	m
+<C-]>	nvim/nvimrc.vim	/^inoremap <C-]> <C-X><C-]>$/;"	m
+<C-h>	nvim/nvimrc.vim	/^nnoremap <C-h> <C-W>h$/;"	m
+<C-j>	nvim/nvimrc.vim	/^nnoremap <C-j> <C-W>j$/;"	m
+<C-k>	nvim/nvimrc.vim	/^nnoremap <C-k> <C-W>k$/;"	m
+<C-l>	nvim/nvimrc.vim	/^nnoremap <C-l> <C-W>l$/;"	m
+<Leader>H	nvim/nvimrc.vim	/^nnoremap <silent> <Leader>H :Startify<CR>$/;"	m
+<Leader>tn	nvim/nvimrc.vim	/^nnoremap <silent> <Leader>tn :tnext<CR>$/;"	m
+<Leader>tp	nvim/nvimrc.vim	/^nnoremap <silent> <Leader>tp :tprevious<CR>$/;"	m
+<Leader>ts	nvim/nvimrc.vim	/^nnoremap <silent> <Leader>ts :tselect<CR>$/;"	m
+<S-Tab>	nvim/nvimrc.vim	/^inoremap <S-Tab> <C-P>$/;"	m
+<Tab>	nvim/nvimrc.vim	/^inoremap <Tab> <C-N>$/;"	m
+<down>	nvim/nvimrc.vim	/^inoremap <down> <nop>$/;"	m
+<down>	nvim/nvimrc.vim	/^nnoremap <down> <nop>$/;"	m
+<leader>*	nvim/nvimrc.vim	/^noremap <leader>* :noh<cr>$/;"	m
+<leader>-	nvim/nvimrc.vim	/^noremap <leader>- :split<cr>$/;"	m
+<leader>F	nvim/nvimrc.vim	/^nnoremap <silent> <leader>F :FZF ~ --color fg:240,bg:230,hl:33,fg+:241,bg+:221,hl+:33<cr>$/;"	m
+<leader>G	nvim/nvimrc.vim	/^nnoremap <leader>G :Grepper -quickfix -open<cr>$/;"	m
+<leader>W	nvim/nvimrc.vim	/^nnoremap <leader>W :wq!<cr>$/;"	m
+<leader>\	nvim/nvimrc.vim	/^noremap <leader>\\ :vs<cr>$/;"	m
+<leader>b	nvim/nvimrc.vim	/^nnoremap <silent> <leader>b :Buffers --color fg:240,bg:230,hl:33,fg+:241,bg+:221,hl+:33<cr>$/;"	m
+<leader>c	nvim/nvimrc.vim	/^nmap <leader>c "+y$/;"	m
+<leader>cc	nvim/nvimrc.vim	/^nnoremap <leader>cc :botright cope<cr>$/;"	m
+<leader>co	nvim/nvimrc.vim	/^nnoremap <leader>co ggVGy:tabnew<cr>:set syntax=qf<cr>pgg$/;"	m
+<leader>cp	nvim/nvimrc.vim	/^nmap <leader>cp :let @*=expand("%")<CR>$/;"	m
+<leader>cq	nvim/nvimrc.vim	/^nnoremap <leader>cq :cclose<cr>$/;"	m
+<leader>d	nvim/nvimrc.vim	/^nmap <leader>d "+d$/;"	m
+<leader>d	nvim/nvimrc.vim	/^nnoremap <silent> <leader>d :GitGutterToggle<cr>$/;"	m
+<leader>e	nvim/nvimrc.vim	/^nnoremap <leader>e :b#<cr>$/;"	m
+<leader>f	nvim/nvimrc.vim	/^nnoremap <silent> <leader>f :FZF --color fg:240,bg:230,hl:33,fg+:241,bg+:221,hl+:33<cr>$/;"	m
+<leader>g	nvim/nvimrc.vim	/^nnoremap <leader>g :Grepper<cr>$/;"	m
+<leader>gp	nvim/nvimrc.vim	/^vnoremap <silent> <leader>gp :call HandleVisualSelection('GrepperInDir', '')<cr>$/;"	m
+<leader>h	nvim/nvimrc.vim	/^vnoremap <silent> <leader>h :call HandleVisualSelectionCommand('replace', '')<cr><cr>$/;"	m
+<leader>ll	nvim/nvimrc.vim	/^nnoremap <leader>ll :lopen<cr>$/;"	m
+<leader>ln	nvim/nvimrc.vim	/^nnoremap <leader>ln :ln<cr>$/;"	m
+<leader>lp	nvim/nvimrc.vim	/^nnoremap <leader>lp :lp<cr>$/;"	m
+<leader>lq	nvim/nvimrc.vim	/^nnoremap <leader>lq :lclose<cr>$/;"	m
+<leader>m	nvim/nvimrc.vim	/^nnoremap <silent> <leader>m :History --color fg:240,bg:230,hl:33,fg+:241,bg+:221,hl+:33<cr>$/;"	m
+<leader>n	nvim/nvimrc.vim	/^nnoremap <leader>n :bnext<cr>$/;"	m
+<leader>nn	nvim/nvimrc.vim	/^nnoremap <leader>nn :NERDTreeFind<cr>$/;"	m
+<leader>nt	nvim/nvimrc.vim	/^nnoremap <leader>nt :NERDTreeToggle<cr>$/;"	m
+<leader>p	nvim/nvimrc.vim	/^nnoremap <leader>p :bprevious<cr>$/;"	m
+<leader>q	nvim/nvimrc.vim	/^nnoremap <leader>q :bdelete!<cr>$/;"	m
+<leader>to	nvim/nvimrc.vim	/^nnoremap <leader>to :tabonly<cr>:BufOnly!<cr>$/;"	m
+<leader>tq	nvim/nvimrc.vim	/^nnoremap <leader>tq :bdelete!<cr>$/;"	m
+<leader>w	nvim/nvimrc.vim	/^nnoremap <leader>w :w!<cr>$/;"	m
+<leader>z	nvim/nvimrc.vim	/^nnoremap <leader>z :q!<cr>$/;"	m
+<left>	nvim/nvimrc.vim	/^inoremap <left> <nop>$/;"	m
+<left>	nvim/nvimrc.vim	/^nnoremap <left> <nop>$/;"	m
+<right>	nvim/nvimrc.vim	/^inoremap <right> <nop>$/;"	m
+<right>	nvim/nvimrc.vim	/^nnoremap <right> <nop>$/;"	m
+<up>	nvim/nvimrc.vim	/^inoremap <up> <nop>$/;"	m
+<up>	nvim/nvimrc.vim	/^nnoremap <up> <nop>$/;"	m
+BOnly	nvim/scripts/BufOnly.vim	/^command! -nargs=? -complete=buffer -bang BOnly$/;"	c
+Bonly	nvim/scripts/BufOnly.vim	/^command! -nargs=? -complete=buffer -bang Bonly$/;"	c
+BufOnly	nvim/scripts/BufOnly.vim	/^command! -nargs=? -complete=buffer -bang BufOnly$/;"	c
+BufOnly	nvim/scripts/BufOnly.vim	/^function! BufOnly(buffer, bang)$/;"	f
+Bufonly	nvim/scripts/BufOnly.vim	/^command! -nargs=? -complete=buffer -bang Bufonly$/;"	c
+GB	nvim/nvimrc.vim	/^nnoremap <silent> GB :Gblame<cr>$/;"	m
+GD	nvim/nvimrc.vim	/^nnoremap <silent> GD :Gdiff<cr>$/;"	m
+GS	nvim/nvimrc.vim	/^nnoremap <silent> GS :Gstatus<cr>$/;"	m
+HandleVisualSelection	nvim/helper.vim	/^function! HandleVisualSelection(direction, extra_filter) range$/;"	f
+HandleVisualSelectionCommand	nvim/helper.vim	/^function! HandleVisualSelectionCommand(cmd, extra_filter) range$/;"	f
+IsPlugged	nvim/helper.vim	/^function! s:IsPlugged(plugin) abort$/;"	f
+MyAutoCmd	nvim/nvimrc.vim	/^augroup MyAutoCmd$/;"	a
+NERDTreeIgnore	nvim/nvimrc.vim	/^let NERDTreeIgnore = ['\\.pyc$', '__pycache__']$/;"	v
+NERDTreeQuitOnOpen	nvim/nvimrc.vim	/^let NERDTreeQuitOnOpen = 0$/;"	v
+NERDTreeShowHidden	nvim/nvimrc.vim	/^let NERDTreeShowHidden=0$/;"	v
+TB	nvim/nvimrc.vim	/^nnoremap TB :vs term:\/\/tig blame<cr><cr>$/;"	m
+TL	nvim/nvimrc.vim	/^nnoremap TL :vs term:\/\/tig log %<cr><cr>$/;"	m
+TS	nvim/nvimrc.vim	/^nnoremap TS :vs term:\/\/tig status<cr><cr>$/;"	m
+c=P	nvim/nvimrc.vim	/^nnoremap <silent> c=P O<Esc>"+Pm``[=`]``^$/;"	m
+c=V	nvim/nvimrc.vim	/^nnoremap <silent> c=V :set<Plug>PeepOpenaste<CR>"+P:set nopaste<CR>$/;"	m
+c=p	nvim/nvimrc.vim	/^nnoremap <silent> c=p o<Esc>"+pm``[=`]``^$/;"	m
+c=v	nvim/nvimrc.vim	/^nnoremap <silent> c=v :set<Plug>PeepOpenaste<CR>"+p:set nopaste<CR>$/;"	m
+cP	nvim/nvimrc.vim	/^nnoremap <silent> cP  "+P$/;"	m
+cY	nvim/nvimrc.vim	/^nnoremap <silent> cY :let [@+, @*] = [@", @"]<CR>$/;"	m
+cgP	nvim/nvimrc.vim	/^nnoremap <silent> cgP "+gP$/;"	m
+cgp	nvim/nvimrc.vim	/^nnoremap <silent> cgp "+gp$/;"	m
+cp	nvim/nvimrc.vim	/^nnoremap <silent> cp  "+p$/;"	m
+g:NERDTreeWinPos	nvim/nvimrc.vim	/^let g:NERDTreeWinPos = "left"$/;"	v
+g:NERDTreeWinSize	nvim/nvimrc.vim	/^let g:NERDTreeWinSize=35$/;"	v
+g:airline#extensions#bufferline#enabled	nvim/nvimrc.vim	/^let g:airline#extensions#bufferline#enabled = 1$/;"	v
+g:airline#extensions#tabline#enabled	nvim/nvimrc.vim	/^let g:airline#extensions#tabline#enabled = 1$/;"	v
+g:airline#extensions#tabline#formatter	nvim/nvimrc.vim	/^let g:airline#extensions#tabline#formatter = 'unique_tail'$/;"	v
+g:airline#extensions#tabline#show_splits	nvim/nvimrc.vim	/^let g:airline#extensions#tabline#show_splits = 0$/;"	v
+g:airline_left_alt_sep	nvim/nvimrc.vim	/^let g:airline_left_alt_sep = ''$/;"	v
+g:airline_left_sep	nvim/nvimrc.vim	/^let g:airline_left_sep = '»'$/;"	v
+g:airline_left_sep	nvim/nvimrc.vim	/^let g:airline_left_sep = '▶'$/;"	v
+g:airline_left_sep	nvim/nvimrc.vim	/^let g:airline_left_sep = ''$/;"	v
+g:airline_powerline_fonts	nvim/nvimrc.vim	/^let g:airline_powerline_fonts = 1$/;"	v
+g:airline_right_alt_sep	nvim/nvimrc.vim	/^let g:airline_right_alt_sep = ''$/;"	v
+g:airline_right_sep	nvim/nvimrc.vim	/^let g:airline_right_sep = '«'$/;"	v
+g:airline_right_sep	nvim/nvimrc.vim	/^let g:airline_right_sep = '◀'$/;"	v
+g:airline_right_sep	nvim/nvimrc.vim	/^let g:airline_right_sep = ''$/;"	v
+g:airline_symbols	nvim/nvimrc.vim	/^  let g:airline_symbols = {}$/;"	v
+g:airline_symbols	nvim/nvimrc.vim	/^let g:airline_symbols.branch = '⎇'$/;"	v
+g:airline_symbols	nvim/nvimrc.vim	/^let g:airline_symbols.branch = ''$/;"	v
+g:airline_symbols	nvim/nvimrc.vim	/^let g:airline_symbols.linenr = '¶'$/;"	v
+g:airline_symbols	nvim/nvimrc.vim	/^let g:airline_symbols.linenr = '␊'$/;"	v
+g:airline_symbols	nvim/nvimrc.vim	/^let g:airline_symbols.linenr = '␤'$/;"	v
+g:airline_symbols	nvim/nvimrc.vim	/^let g:airline_symbols.linenr = ''$/;"	v
+g:airline_symbols	nvim/nvimrc.vim	/^let g:airline_symbols.paste = 'Þ'$/;"	v
+g:airline_symbols	nvim/nvimrc.vim	/^let g:airline_symbols.paste = 'ρ'$/;"	v
+g:airline_symbols	nvim/nvimrc.vim	/^let g:airline_symbols.paste = '∥'$/;"	v
+g:airline_symbols	nvim/nvimrc.vim	/^let g:airline_symbols.readonly = ''$/;"	v
+g:airline_symbols	nvim/nvimrc.vim	/^let g:airline_symbols.whitespace = 'Ξ'$/;"	v
+g:airline_theme	nvim/nvimrc.vim	/^let g:airline_theme='snow_light'$/;"	v
+g:gitgutter_enabled	nvim/nvimrc.vim	/^let g:gitgutter_enabled=0$/;"	v
+g:grepper	nvim/nvimrc.vim	/^let g:grepper               = {}$/;"	v
+g:grepper	nvim/nvimrc.vim	/^let g:grepper.jump          = 0$/;"	v
+g:grepper	nvim/nvimrc.vim	/^let g:grepper.next_tool     = '<leader>g'$/;"	v
+g:grepper	nvim/nvimrc.vim	/^let g:grepper.open      = 1$/;"	v
+g:grepper	nvim/nvimrc.vim	/^let g:grepper.quickfix          = 0$/;"	v
+g:grepper	nvim/nvimrc.vim	/^let g:grepper.tools         = ['rg', 'git', 'ag']$/;"	v
+g:startify_change_to_dir	nvim/nvimrc.vim	/^let g:startify_change_to_dir      = 0$/;"	v
+g:startify_change_to_vcs_root	nvim/nvimrc.vim	/^let g:startify_change_to_vcs_root = 0$/;"	v
+g:startify_custom_header	nvim/nvimrc.vim	/^let g:startify_custom_header      = [] " Disable random quotes header$/;"	v
+g:startify_enable_special	nvim/nvimrc.vim	/^let g:startify_enable_special     = 0$/;"	v
+g:startify_relative_path	nvim/nvimrc.vim	/^let g:startify_relative_path      = 1$/;"	v
+g:startify_show_sessions	nvim/nvimrc.vim	/^let g:startify_show_sessions      = 1$/;"	v
+g:startify_skiplist	nvim/nvimrc.vim	/^let g:startify_skiplist = [$/;"	v
+g:startify_update_oldfiles	nvim/nvimrc.vim	/^let g:startify_update_oldfiles    = 1$/;"	v
+ga	nvim/nvimrc.vim	/^nmap ga <Plug>(EasyAlign)$/;"	m
+gdf	nvim/nvimrc.vim	/^vnoremap <silent> gdf :call HandleVisualSelection('GrepperFunction', '')<cr>$/;"	m
+gis	nvim/nvimrc.vim	/^nmap gis viw<plug>(GrepperOperator)$/;"	m
+gs	nvim/nvimrc.vim	/^nmap gs <plug>(GrepperOperator)$/;"	m
+gu	nvim/nvimrc.vim	/^nmap gu viw<plug>(GrepperOperator)$/;"	m
+loaded_matchparen	nvim/nvimrc.vim	/^let loaded_matchparen = 1$/;"	v
+mapleader	nvim/nvimrc.vim	/^let mapleader = ' '$/;"	v
+myOperator	nvim/helper.vim	/^function! s:myOperator(type) abort$/;"	f
+t<C-f>	nvim/nvimrc.vim	/^nmap <silent> t<C-f> :TestFile<CR>$/;"	m
+t<C-g>	nvim/nvimrc.vim	/^nmap <silent> t<C-g> :TestVisit<CR>$/;"	m
+t<C-l>	nvim/nvimrc.vim	/^nmap <silent> t<C-l> :TestLast<CR>$/;"	m
+t<C-n>	nvim/nvimrc.vim	/^nmap <silent> t<C-n> :TestNearest<CR>$/;"	m
+t<C-s>	nvim/nvimrc.vim	/^nmap <silent> t<C-s> :TestSuite<CR>$/;"	m
+test#ruby#bundle_exec	nvim/nvimrc.vim	/^let test#ruby#bundle_exec = 1$/;"	v
+test#strategy	nvim/nvimrc.vim	/^  let test#strategy = "neovim"$/;"	v
